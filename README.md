@@ -90,10 +90,6 @@ When you run the training, you should see:
 📊 ReadingScore bounds: XX.XX to XX.XX
 🧹 Data after outlier removal: XX,XXX records (removed X outliers)
 🧹 Final clean training data: XX,XXX samples
-📊 Training Score (R²): 0.246452
-📊 Testing Score (R²): 0.256210
-📊 Mean Squared Error: 147.737555
-📊 Mean Absolute Error: 9.896014
 ✅ Model trained and saved to models/reading_score_model.pkl
 ```
 
@@ -113,3 +109,4 @@ The trained model will be saved as `models/reading_score_model.pkl`.
 - Ensure all dependencies are installed with `pip install -r requirements.txt`
 - Check that the data file exists in `server/data/`
 - Run from the `server` directory, not the root directory
+
