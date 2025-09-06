@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ### 2. Navigate to Server Directory
 
 ```bash
-cd server
+cd test
 ```
 
 ### 3. Train the Model (Required First Time)
